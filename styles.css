@@ -1,0 +1,73 @@
+body {
+    font-family: roboto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 150px;
+}
+
+.caja {
+    width: 400px;
+    margin-top: 80px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.encabezado {
+    margin: auto;
+}
+
+.fa-ellipsis-vertical {
+    margin-right: 6px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+h1 {
+    margin-left: 8%;
+    margin-bottom: -15px;
+    font-size: x-large;
+}
+
+h5 {
+    margin-left: 8%;
+    margin-bottom: 1px;
+    font-size: x-small;
+}
+
+img {
+    width: 400px;
+}
+
+.fa-ellipsis-vertical {
+    float: right;
+}
+
+.fa-html5 {
+    float: left;
+    font-size: 30px;
+}
+
+.fa-bookmark {
+    float: right;
+    margin-left: 20px;
+    margin-right: 5px;
+
+}
+
+i {
+    font-size: 25px;
+    margin: 2px 1px 0 5px;
+}
+
+p {
+    margin-left: 2px;
+}
+
+p+p {
+    margin-bottom: 5%;
+}
